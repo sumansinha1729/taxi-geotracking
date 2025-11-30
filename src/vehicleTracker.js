@@ -1,6 +1,3 @@
-// In-memory storage for vehicle states
-// In production, this would be a database like Redis or PostgreSQL
-
 const vehicleStates = new Map();
 
 /**

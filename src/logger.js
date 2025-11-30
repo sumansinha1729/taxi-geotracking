@@ -1,6 +1,3 @@
-// Simple logging utility
-// In production, use winston or pino for structured logging
-
 function log(level, message, data = {}) {
   const timestamp = new Date().toISOString();
   const logEntry = {

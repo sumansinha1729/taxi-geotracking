@@ -168,13 +168,7 @@ app.get('/health', (req, res) => {
 // Start server
 app.listen(PORT, () => {
   logger.info('Geofence tracking service started', { port: PORT });
-  console.log(`\nServer running on http://localhost:${PORT}`);
-  console.log(`\nAvailable endpoints:`);
-  console.log(`  POST   /location          - Submit vehicle location`);
-  console.log(`  GET    /vehicle/:id       - Get vehicle status`);
-  console.log(`  GET    /zones             - List all zones`);
-  console.log(`  GET    /vehicles          - List all vehicles`);
-  console.log(`  GET    /health            - Health check\n`);
+  console.log(`\nServer running on http://localhost:${PORT}`)
 });
 
 module.exports = app;

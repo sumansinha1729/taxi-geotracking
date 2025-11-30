@@ -1,6 +1,3 @@
-// Geographic zones for the taxi service
-// Using simple rectangular boundaries for efficiency
-
 const zones = [
   {
     id: 'downtown',
